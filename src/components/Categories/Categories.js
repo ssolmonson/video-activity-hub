@@ -86,14 +86,12 @@ const CategoriesPage = () => {
           </div>
         </div>
         <div className="category-btn">
-          <Button variant="secondary" className="viewall-btn">
+          <Button className="viewall-btn">
             View all categories
           </Button>
-          <Link to="/activities">
-            <Button variant="primary" className="done-btn">
-              Done
-            </Button>
-          </Link>
+          <Button className="done-btn">
+            Done
+          </Button>
         </div>
       </div>
     </div>
